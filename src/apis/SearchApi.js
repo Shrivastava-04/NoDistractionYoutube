@@ -39,6 +39,7 @@ const Search = (item) => {
     const fetchData = async () => {
       try {
         const response1 = await axios.request(options1);
+        // console.log(response1);
         setMyData(response1.data.data);
       } catch (error1) {
         console.log("First API failed:", error1.message);

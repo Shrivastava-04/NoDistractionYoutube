@@ -15,9 +15,11 @@ const SearchPage = () => {
   // console.log(finalData);
   return (
     <>
-      <div>
+      <div className="flex flex-col sticky top-0 z-50">
         <Navbar />
         <SearchBar />
+      </div>
+      <div>
         <div className="grid grid-cols-3 items-center justify-center ml-20 mt-10 gap-4">
           {finalData.map((item) => {
             return <SmallDivs key={item.videoId} item={item} />;

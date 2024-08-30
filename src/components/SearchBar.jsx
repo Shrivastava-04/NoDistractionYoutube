@@ -24,7 +24,7 @@ const SearchBar = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center mt-10">
+      <div className="flex sticky bg-cyan-900 items-center justify-center pt-5 z-50 pb-5">
         <div>
           <form
             onSubmit={handleSubmit(onSubmit)}
