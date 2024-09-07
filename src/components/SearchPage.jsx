@@ -96,7 +96,7 @@ const SearchPage = () => {
         <div className="block md:hidden z-0 px-5 ">
           <SearchBar />
         </div>
-        <div className="flex flex-wrap justify-center mb-10 min-h-screen">
+        <div className="flex flex-wrap justify-center mb-10 min-w-full min-h-screen">
           {finalData.map((item) => {
             return <SmallDivs key={item.videoId} item={item} />;
           })}

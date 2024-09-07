@@ -26,7 +26,7 @@ function Filter() {
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
-        <div className="modal-box dark:bg-cyan-900 dark:text-white">
+        <div className="modal-box bg-white text-black dark:bg-cyan-900 dark:text-white">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <a

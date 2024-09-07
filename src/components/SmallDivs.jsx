@@ -56,7 +56,7 @@ const SmallDivs = ({ item }) => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <button
             type="submit"
-            className="rounded-xl flex flex-col max-w-sm p-3 hover:scale-105 translate-y-2 transition-transform  ease-in-out"
+            className="rounded-xl flex flex-col max-w-sm p-3 hover:scale-105 translate-y-2 transition-transform ease-in-out"
           >
             <div
               className="bg-contain bg-center rounded-lg flex justify-end items-end px-2 py-1"
