@@ -31,12 +31,12 @@ const HeroSection = () => {
         </div>
         <div className="flex pb-32 md:w-full items-center justify-center order-1 md:order-2">
           <img
-            src="../../public/title.png"
+            src="src\images\title.png"
             className="dark:hidden block"
             alt=""
           />
           <img
-            src="../../public/title-4.png"
+            src="src\images\title-4.png"
             className="dark:block hidden"
             alt=""
           />
