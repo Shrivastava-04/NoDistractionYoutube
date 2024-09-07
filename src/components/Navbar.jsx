@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import SearchBar from "./SearchBar";
 import { CiDark, CiLight } from "react-icons/ci";
 import Filter from "./Filter";
+import imagedark from "../images/title-4.png";
+import imagelight from "../images/title.png";
 // import logoLight from "https://drive.google.com/file/d/16WWIBn0jTZUCthhQX1beMSSjoG4KH6VW/view?usp=sharing";
 
 const Navbar = () => {
@@ -25,20 +27,12 @@ const Navbar = () => {
     <>
       <div className="flex sticky top-0 backdrop-blur-md z-50 py-4 px-8 justify-around text-xl items-center">
         <a className="md:hidden block" href="/">
-          <img src="/title.png" className="h-10 dark:hidden block" alt="" />
-          <img src="/title-4.png" className="h-10 dark:block hidden" alt="" />
+          <img src={imagelight} className="h-10 dark:hidden block" alt="" />
+          <img src={imagedark} className="h-10 dark:block hidden" alt="" />
         </a>
         <div className="md:block hidden">
-          <img
-            src="src/images/title.png"
-            className="h-10 dark:hidden block"
-            alt=""
-          />
-          <img
-            src="src/images/title-4.png"
-            className="h-10 dark:block hidden"
-            alt=""
-          />
+          <img src={imagelight} className="h-10 dark:hidden block" alt="" />
+          <img src={imagedark} className="h-10 dark:block hidden" alt="" />
         </div>
         <div className="md:flex justify-around gap-10 font-semibold hidden">
           <a

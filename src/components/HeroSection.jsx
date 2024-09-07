@@ -1,5 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar";
+import imagedark from "../images/title-4.png";
+import imagelight from "../images/title.png";
 
 const HeroSection = () => {
   return (
@@ -30,16 +32,8 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="flex pb-32 md:w-full items-center justify-center order-1 md:order-2">
-          <img
-            src="src\images\title.png"
-            className="dark:hidden block"
-            alt=""
-          />
-          <img
-            src="src\images\title-4.png"
-            className="dark:block hidden"
-            alt=""
-          />
+          <img src={imagelight} className="dark:hidden block" alt="" />
+          <img src={imagedark} className="dark:block hidden" alt="" />
         </div>
       </div>
     </>
