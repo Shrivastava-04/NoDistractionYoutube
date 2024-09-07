@@ -24,22 +24,21 @@ const SearchBar = () => {
 
   return (
     <>
-      <div className="flex sticky bg-cyan-900 items-center justify-center pt-5 z-50 pb-5">
+      <div className="flex sticky items-center justify-center pt-5 z-50 pb-5">
         <div>
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="min-w-max flex items-center justify-center"
+            className="min-w-max flex items-center justify-center gap-1"
           >
             <input
               type="text"
               placeholder="Search for videos..."
-              className="min-w-[32rem] min-h-[3rem] border-2 border-gray-300 rounded-md py-2 px-4 text-sm focus:outline-none focus:ring-primary-500"
+              className="w-96 border-2 border-gray-300 text-black rounded-md py-2 px-4 text-sm focus:outline-none focus:ring-primary-500"
               {...register("search", { required: true })}
             />
             <button
               type="submit"
-              className="bg-slate-600 min-h-[3rem] min-w-[3rem] text-3xl text-white bg-primary-500 hover:bg-primary-600 
-            rounded-lg px-4 py-2"
+              className="text-black  bg-gray-100 hover:bg-slate-300 hover:-translate-y-2 hover:scale-110 transition ease-in-out rounded-xl text-2xl bg-primary-500 hover:bg-primary-600  px-2 py-2"
             >
               <CiSearch />
             </button>
