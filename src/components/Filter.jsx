@@ -6,13 +6,11 @@ import axios from "axios";
 function Filter() {
   const [uploadDate, setUploadDate] = useState("");
   const [duration, setDuration] = useState("");
-  const [sortby, setSortBy] = useState(() => {
-    if (localStorage.getItem("sortby")) return localStorage.getItem("sortby");
-    else return "";
-  });
+  const [sortby, setSortBy] = useState("");
   useEffect(() => {
-    if (localStorage.getItem("sortby")) localStorage.removeItem("sortby");
-    localStorage.setItem("sortby", sortby);
+    if (localStorage.getItem("sortby")) {
+      localStorage.removeItem("sortby");
+    } else localStorage.setItem("sortby", sortby);
   }, [sortby]);
   useEffect(() => {
     if (localStorage.getItem("duration")) localStorage.removeItem("duration");

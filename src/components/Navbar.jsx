@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex sticky top-0 backdrop-blur-md z-50 py-4 px-8 justify-around text-xl items-center">
+      <div className="flex min-w-full sticky top-0 backdrop-blur-md z-50 py-4 px-8 justify-around text-xl items-center">
         <a className="md:hidden block" href="/">
           <img src={imagelight} className="h-10 dark:hidden block" alt="" />
           <img src={imagedark} className="h-10 dark:block hidden" alt="" />

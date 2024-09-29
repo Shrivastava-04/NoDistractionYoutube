@@ -15,14 +15,17 @@ const HeroSection = () => {
             No-Distraction Youtube
           </h1>
           <p className="pt-10 text-md md:text-lg font-semibold">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            pariatur maiores tempora laudantium repellat iure voluptatibus
-            possimus ut similique in quae voluptatem ex, officia, odio alias,
-            porro blanditiis necessitatibus accusantium! Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Temporibus esse non iure minima
-            suscipit eaque, iste explicabo tempora recusandae necessitatibus
-            assumenda ullam, eveniet provident amet dolorum laboriosam officiis
-            praesentium et.
+            Welcome to FocusFlow: Your Gateway to Distraction-Free Video
+            Streaming.
+            <br />
+            Tired of the clutter and noise? FocusFlow delivers a clean, simple,
+            and distraction-free experience. With our minimalistic design, you
+            can dive straight into your favorite videos without unnecessary
+            distractions. Whether you're learning, working, or just relaxing,
+            FocusFlow is built to enhance your focus. No ads, no autoplay, just
+            the content you care about. Start streaming with clarity and peace
+            of mind. Join the movement toward a smarter, more focused way of
+            watching videos.
           </p>
           <h3 className="pt-5 text-3xl font-semibold">
             Search what you want to see
